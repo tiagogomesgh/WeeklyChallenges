@@ -101,3 +101,4 @@ C:\Users\Tiago Gomes\Desktop\Repo\WeeklyChallenges\ChallengesWithTestsMark8.Test
 C:\Users\Tiago Gomes\Desktop\Repo\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.Tests.dll
 C:\Users\Tiago Gomes\Desktop\Repo\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.Tests.pdb
 C:\Users\Tiago Gomes\Desktop\Repo\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.Tests.genruntimeconfig.cache
+C:\Users\Tiago Gomes\Desktop\Repo\WeeklyChallenges\ChallengesWithTestsMark8.Tests\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.Tests.csproj.CopyComplete
