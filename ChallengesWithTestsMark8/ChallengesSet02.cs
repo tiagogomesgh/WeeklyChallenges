@@ -91,6 +91,9 @@ namespace ChallengesWithTestsMark8
         {
             var sum = numbers.Sum();
             return sum;
+
+
+            
         }
 
         public int SumEvens(int[] numbers)
@@ -102,8 +105,8 @@ namespace ChallengesWithTestsMark8
                 {
                     result+=i;
                 }
-                return result;
             }
+                return result;
         }
 
         public bool IsSumOdd(List<int> numbers)
@@ -117,11 +120,23 @@ namespace ChallengesWithTestsMark8
             {
                 return true;
             }
+            if (sum == 0)
+            {
+                return false;
+            }
         }
 
         public long CountOfPositiveOddsBelowNumber(long number)
         {
-            return number / 2;
+            if (number / 2 == 0)
+            {
+                return number / 2;
+
+            }
+            else
+            {
+                return 0;
+            }
         }
     }
 }
