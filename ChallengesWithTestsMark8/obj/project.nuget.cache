@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "PPEDT1GzFH1y9PsHK9nPl12jY7PDXMNZFZ/9Q7AWmmafapIQzlXMBqhaOxoSK3t4agNGWX6YnrZtWaYW17dHNw==",
+  "dgSpecHash": "JCXZImO6savHTASteygpcg3E/En406dO5kGiUGIKoTxN4AGniR3PgwsBY+6TGp51P8Cb50aVngrHvJB/uxRDCw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tiago Gomes\\Desktop\\Repo\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/home/tiagogomes/Documents/Source Code/VS Code/Repo/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj",
+  "expectedPackageFiles": [
+    "/home/tiagogomes/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/home/tiagogomes/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.17/microsoft.netcore.app.host.linux-x64.3.1.17.nupkg.sha512"
+  ],
   "logs": []
 }

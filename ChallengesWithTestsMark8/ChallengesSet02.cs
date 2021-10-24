@@ -75,25 +75,18 @@ namespace ChallengesWithTestsMark8
                     //^^^^^^^^ 
         public int GetLengthOfShortestString(string str1, string str2)
         {
-            int str1L = str1.Length;
-            int str2L = str2.Length;
-            if (str1L > str2L)
-            {
-                return str1L;
-            }
-            else
-            {
-                return str2L;
-            }
+            return str1.Length < str2.Length ? str1.Length : str2.Length;
         }
 
         public int Sum(int[] numbers)
         {
-            var sum = numbers.Sum();
+            var sum = 0;
+            if (numbers == null)
+                return 0;
+            else
+                foreach (var n in numbers)
+                    sum += n;
             return sum;
-
-
-            
         }
 
         public int SumEvens(int[] numbers)
@@ -111,32 +104,13 @@ namespace ChallengesWithTestsMark8
 
         public bool IsSumOdd(List<int> numbers)
         {
-            int sum = numbers.Sum();
-            if (sum % 2 == 0)
-            {
-                return false;
-            }
-            else
-            {
-                return true;
-            }
-            if (sum == 0)
-            {
-                return false;
-            }
+            return numbers == null ? false : (numbers.Sum() % 2 != 0);
         }
+
 
         public long CountOfPositiveOddsBelowNumber(long number)
         {
-            if (number / 2 == 0)
-            {
-                return number / 2;
-
-            }
-            else
-            {
-                return 0;
-            }
+            return number >= 0 ? number / 2 : 0;
         }
     }
 }

@@ -6613,39 +6613,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tiago Gomes\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/tiagogomes/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tiago Gomes\\Desktop\\Repo\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
+      "projectUniqueName": "/home/tiagogomes/Documents/Source Code/VS Code/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
       "projectName": "ChallengesWithTestsMark8.Tests",
-      "projectPath": "C:\\Users\\Tiago Gomes\\Desktop\\Repo\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\ChallengesWithTestsMark8.Tests.csproj",
-      "packagesPath": "C:\\Users\\Tiago Gomes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tiago Gomes\\Desktop\\Repo\\WeeklyChallenges\\ChallengesWithTestsMark8.Tests\\obj\\",
+      "projectPath": "/home/tiagogomes/Documents/Source Code/VS Code/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/ChallengesWithTestsMark8.Tests.csproj",
+      "packagesPath": "/home/tiagogomes/.nuget/packages/",
+      "outputPath": "/home/tiagogomes/Documents/Source Code/VS Code/Repo/WeeklyChallenges/ChallengesWithTestsMark8.Tests/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Tiago Gomes\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/tiagogomes/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Tiago Gomes\\Desktop\\Repo\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj": {
-              "projectPath": "C:\\Users\\Tiago Gomes\\Desktop\\Repo\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj"
+            "/home/tiagogomes/Documents/Source Code/VS Code/Repo/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj": {
+              "projectPath": "/home/tiagogomes/Documents/Source Code/VS Code/Repo/WeeklyChallenges/ChallengesWithTestsMark8/ChallengesWithTestsMark8.csproj"
             }
           }
         }
@@ -6683,12 +6676,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.205/RuntimeIdentifierGraph.json"
       }
     }
   }
