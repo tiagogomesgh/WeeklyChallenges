@@ -104,7 +104,7 @@ namespace ChallengesWithTestsMark8
 
         public bool IsSumOdd(List<int> numbers)
         {
-            return numbers == null ? false : (numbers.Sum() % 2 != 0);
+            return numbers != null && (numbers.Sum() % 2 != 0);
         }
 
 
