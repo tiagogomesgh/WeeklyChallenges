@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ChallengesWithTestsMark8
 {
@@ -13,17 +14,33 @@ namespace ChallengesWithTestsMark8
 
         public void ChangeNamesOfBusinessesWithNoRevenueTo_CLOSED(Business[] businesses)
         {
-            throw new NotImplementedException();
+            foreach (var b in businesses)
+            {
+                if (b.TotalRevenue == 0)
+                    b.Name = "CLOSED";
+            }
         }
 
         public bool IsAscendingOrder(int[] numbers)
         {
-            throw new NotImplementedException();
+            return numbers == numbers.ToList().Skip(1).OrderBy(x => x).ToArray();
         }
 
         public int SumElementsThatFollowAnEven(int[] numbers)
         {
-            throw new NotImplementedException();
+            if (numbers == null || numbers.Length == 0) return 0;
+
+            var result = 0;
+
+            for (int i = 1; i < numbers.Length; i++)
+            {
+                if (numbers[i - 1] % 2 == 0)
+                {
+                    result += numbers[i];
+                }
+            }
+
+            return result;
         }
 
         public string TurnWordsIntoSentence(string[] words)
@@ -33,12 +50,22 @@ namespace ChallengesWithTestsMark8
 
         public double[] GetEveryFourthElement(List<double> elements)
         {
-            throw new NotImplementedException();
+            if (elements == null)
+                return new double[] { };
+            return elements.Where(x => x % 4 == 0).Select(x => x).ToArray();
         }
 
         public bool TwoDifferentElementsInArrayCanSumToTargetNumber(int[] nums, int targetNumber)
         {
-            throw new NotImplementedException();
+            for (int i = 0; i < nums.Length; i++)
+            {
+                for (int j = i + 1; j < nums.Length; j++)
+                {
+                    if (nums[i] + nums[j] == targetNumber)
+                        return true;
+                }
+            }
+            return false;
         }
     }
 }

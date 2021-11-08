@@ -24,3 +24,4 @@ C:\Users\Tiago Gomes\Desktop\Repo\WeeklyChallenges\ChallengesWithTestsMark8\obj\
 C:\Users\Tiago Gomes\Desktop\Repo\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.dll
 C:\Users\Tiago Gomes\Desktop\Repo\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.pdb
 C:\Users\Tiago Gomes\Desktop\Repo\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.genruntimeconfig.cache
+C:\Users\Tiago Gomes\Desktop\Repo\WeeklyChallenges\ChallengesWithTestsMark8\obj\Debug\netcoreapp3.1\ChallengesWithTestsMark8.csproj.AssemblyReference.cache
